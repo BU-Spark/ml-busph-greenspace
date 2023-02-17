@@ -29,7 +29,20 @@ Outdoor greenspace has become a focus of attention to improve the kindergarten t
 - [ ] The results should show some kind summary or queryable demonstration of what greenness ES for all K-12 schools in Boston & Chelsea means
 
 1. Deliverable 1
+   
+   First develop image understanding techniques to start producing the following information: multiple greenspace ES metrics related to temperature and air pollution (regulatory ES)  as well as physical activity and restorative capacity (cultural ES). Specifically creating data layers for general greenness, tree canopy, playgrounds & playing fields, and greenspace “view” from schools.
+
+    Implement, train and evaluate computer vision and image understanding models that can provide insights on the following greenspace ES metrics related to temperature and air pollution (regulatory ES)  as well as physical activity and restorative capacity (cultural ES). 
+
+
+
 2. Deliverable 2
+
+    Overall the final deliverable is a dataset about the greenness of those sch
+
+    The results should show some kind summary or queryable demonstration of what greenness ES for all K-12 schools in Boston & Chelsea means. 
+
+    This “database” will be a resource for schools and policy makers to make equity based sustainability and climate adaptation decisions related to the type of greenspace surrounding schools. 
 
 
 ### C. Provide a solution in terms of human actions to confirm if the task is within the scope of automation through AI. 
