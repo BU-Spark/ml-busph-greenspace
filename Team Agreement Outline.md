@@ -61,10 +61,10 @@ Haodong Chen, Christina Xu
 
 ### 2.3 Agile Roles
 
-Product owner: Chengyu Zhang
-Scrum master: Chengyu Zhang
-Development team: All
-Design team: Haodong Chen, Christina Xu
+- Product owner: Chengyu Zhang
+- Scrum master: Chengyu Zhang
+- Development team: All
+- Design team: Haodong Chen, Christina Xu
 
 ## 3 Processes:
 
@@ -92,11 +92,11 @@ Our main communication platforms will be Slack and Zoom.
 
 ### 3.5 Conflict Resolution
 
-(1) Identify the root cause of the conflict. Sometimes disagreements occur due to miscommunication and get blown out of proportion.
-(2) Seek common ground. Look for areas of agreement and common ground to build on, and focus on finding a mutually beneficial solution rather than trying to "win" the argument.
-(3) Explore different solutions. Brainstorm and discuss different solutions to the conflict, and evaluate the pros and cons of each option.
-(4) Make a decision with clear action steps. Once a solution has been agreed upon, take action to implement it and ensure that everyone clearly understands their responsibilities.
-(5) Follow up. Check in regularly to make sure that the solution is effective and that everyone is satisfied with the outcome.
+1. Identify the root cause of the conflict. Sometimes disagreements occur due to miscommunication and get blown out of proportion.
+2. Seek common ground. Look for areas of agreement and common ground to build on, and focus on finding a mutually beneficial solution rather than trying to "win" the argument.
+3. Explore different solutions. Brainstorm and discuss different solutions to the conflict, and evaluate the pros and cons of each option.
+4. Make a decision with clear action steps. Once a solution has been agreed upon, take action to implement it and ensure that everyone clearly understands their responsibilities.
+5. Follow up. Check in regularly to make sure that the solution is effective and that everyone is satisfied with the outcome.
 
 ## 4 Interactions:
 
