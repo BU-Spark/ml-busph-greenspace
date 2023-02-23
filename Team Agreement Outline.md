@@ -38,7 +38,11 @@ https://questromworld.bu.edu/questromteamlearning/main/student-resources/advanci
   - Practice my skills as a team leader. Learn and practice project management skills.
   - First time for me to participate in a ML project. Get to know the process of working a machine learning project.
 - Haodong Chen: 
+  - Apply my knowledge and improve my skills on image computing, data mining, and feature engineering. 
 - Kuangfei Long:
+  - I want to gain experience in this course on how to work as a team in an established team to complete a project.
+  - Also, during the completion of the project, I hope to gain more knowledge and advancement in data science, which will expand my potential to work in the data science field in the future.
+  - Finally, a good grade in this course would also be a great addition to my academic career.
 
 
 ## 2 Team Roles:
@@ -56,13 +60,15 @@ Each team will have different roles. Also the same individual can take up multip
 
 Haodong Chen, Christina Xu
 
+
 ### 2.3 Agile Roles
 
 Product owner: Chengyu Zhang
 Scrum master: Chengyu Zhang
 
-development team: All
+Development Team: All
 Design Team: Haodong Chen, Christina Xu
+
 
 ## 3 Process:
 
