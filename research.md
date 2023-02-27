@@ -36,16 +36,25 @@ This new cartography may improve making maps more accessible to urban residents 
 ## 3. Main Approach
 Here is a diagram that shows some approach we plan to take for producing different variables of the resulting dataset 
 
+![Approach Diagram](approach_diagram.png)
+
 Specific methods for techniques mentioned above:
 
 ### 3.1 Detect/Segment ‘windows’ from a image 
+
+- Mask R-CNN framework: 
+	We can use the Mask R-CNN model, which is an intuitive extension of the FasterR-CNN model and outputs the predicting segmentation masks on each Region of Interest (RoI).
+	https://arxiv.org/abs/2107.10006
 
 
 ### 3.2 Object Detection Playground, Solar Panels
 
 - Simple Linear Iterative Clustering (SLIC) superpixel segmentation.
 	Simple Linear Iterative Clustering is the state of the art algorithm to segment superpixels which doesn’t require much computational power. In brief, the algorithm clusters pixels in the combined five-dimensional color and image plane space to efficiently generate compact, nearly uniform superpixels. This algorithm was developed at Image and Visual Representation Group (IVRG) at EPFL and here’s the published paper and official source code.
-- 
+- Robosat
+	RoboSat is an end-to-end pipeline written in Python 3 for feature extraction from aerial and satellite imagery. Features can be anything visually distinguishable in the imagery for example: buildings, parking lots, roads, or cars.
+- SegForestNet
+	Reference implementation of SegForestNet, a model which predicts binary space partitioning trees to compute a semantic segmentation of aerial images. The associated paper titled "SegForestNet: Spatial-Partitioning-Based Aerial Image Segmentation" is available on arXiv. Please cite our paper if you use anything from this repository.
 
 
 ### 3.3 Color Classcifier
@@ -53,4 +62,12 @@ Specific methods for techniques mentioned above:
 - [Color-tags](https://huggingface.co/spaces/rrighart/color-tags)
 
 ### 3.4 Detect Pavement
+
+- [Automated Detecting and Placing Road Objects from Street-level Images](https://arxiv.org/pdf/1909.05621.pdf )
+- Road object detection for HD map: [Full-element survey, analysis and perspectives](https://doi.org/10.1016/j.isprsjprs.2023.01.009)
+- or other autonomous driving (AD) methodologies that are based on computer vision could be useful
+
+### 3.5 Map school to specific street
+
+- Using google street api and schools’ coordinate.
 
