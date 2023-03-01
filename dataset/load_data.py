@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 
 # Chengyu Zhang
-api_key = "AIzaSyAJMYRgwpuRQf7VgflRThynwh9GRW8wfAk"
+api_key = "..."
 
 
 class StreetViewer(object):
