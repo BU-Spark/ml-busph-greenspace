@@ -1,0 +1,3 @@
+[submodule "SegForestNet"]
+	path = SegForestNet
+	url = https://github.com/davidchd/SegForestNet
