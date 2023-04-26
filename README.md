@@ -4,13 +4,16 @@ The goal of this specific machine learning project is to characterize ecosystem 
 # Structure
 ```
 ├── .github
-├── SegForestNet
-├── notebooks 
+├── notebooks
 ├── results 
-├── Collaborators
+├── SegForestNet
+├── .gitignore
+├── COLLABORATORS
 ├── LICENSE
 ├── Project Outline.md # start here for an overview
-└── README.md
+├── README.md
+├── research.md
+└── Team Agreement Outline.md
 ```
 
 # Getting Started 
