@@ -1,32 +1,29 @@
-# Greenspace project readme
+# BU School of Public Health - Greenspace Ecosystem Services in K-12 schools
+The goal of this specific machine learning project is to characterize ecosystem services (ES) disparities in K-12 schools in the US using satellite and street view imagery and ML image understanding techniques. 
 
-# 1 Documentation
-We have our project outline document to describe this project and the main goal about this green space project. Specific in [outline.md](./Project Outline.md).
+# Structure
+```
+├── .github               
+├── models # Mask-RCNN, UNet-Resnet
+├── notebooks 
+├── results 
+├── Collaborators
+├── LICENSE
+├── Project Outline.md # start here for an overview
+└── README.md
+```
+
+# Getting Started 
+## notebooks
+- [00-eda.ipynb](notebooks/00-eda.ipynb) - visualizes aerial images
+- [01-mask_rcnn.ipynb](notebooks/01-mask_rcnn.ipynb) - visualizes annotated data and demonstrates how to train Mask-RCNN on 50m school aerial images
+- [02-unet_resnet.ipynb](notebooks/...) - inference results of InceptionResNetV2-UNet on 500m school aerial images. Demonstrates complete workflow of aerial images to a queryable dataset
+
+# To Do
+* Fine tune the current models by either training on higher quality data or annotating the current aerial images 
+* Explre other enviornmental factors that can influence quality of learning such as cooling, air pollution, physical activity
+* Determine if there is a correlation between availibilty of ecosystem services and school location
 
 
 
 
-
-# 2. Project Structure
-
-### 2.1 dataset
-
-* [K-12 schools in US](https://nces.ed.gov/programs/edge/geographic/schoollocations)
-* Google Earth
-* Google StreetView or use API using list of schools
-* [Landsat (NDVI & EVI)](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C01_T1_8DAY_EVI)
-* [Tree canopy](https://data.fs.usda.gov/geodata/rastergateway/treecanopycover/)
-* CDC Social Vulnerability Index & other disparity databases 
-* [Mapping inequality redlining maps](https://www.atsdr.cdc.gov/placeandhealth/svi/index.html)
-* [Air pollution (PM2.5)](https://beta.sedac.ciesin.columbia.edu/data/set/aqdh-pm2-5-concentrations-contiguous-us-1-km-2000-2016)
-* [Land surface temperature](https://www.usgs.gov/landsat-missions/landsat-collection-2-surface-temperature) 
-
-### 2.2 ML method
-
-To be decided.
-
-### 2.3 Deliverable results (Expected)
-
-Overall the final deliverable is a dataset about the greenness of those sch
-
-The results should show some kind summary or queryable demonstration of what greenness ES for all K-12 schools in Boston & Chelsea means. 
