@@ -3,8 +3,8 @@ The goal of this specific machine learning project is to characterize ecosystem 
 
 # Structure
 ```
-├── .github               
-├── models # Mask-RCNN, UNet-Resnet
+├── .github
+├── SegForestNet
 ├── notebooks 
 ├── results 
 ├── Collaborators
