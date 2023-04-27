@@ -89,8 +89,6 @@ The expected final deliveriable for this project is a database of greenness ES f
 
 ### References
 
-1. 
-
 ## Weekly Meeting Updates
 
 Access our team weekly meeting notes [here](https://docs.google.com/document/d/1HQDMZKpkiLygbhWLCOMG4iaCj2k0TzJtZsnc8XFbgL4/edit#). 
