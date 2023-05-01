@@ -21,11 +21,19 @@ The goal of this specific machine learning project is to characterize ecosystem 
 - [00-eda.ipynb](notebooks/00-eda.ipynb) - visualizes aerial images
 - [01-mask_rcnn.ipynb](notebooks/01-mask_rcnn.ipynb) - visualizes annotated data and demonstrates how to train Mask-RCNN on 50m school aerial images
 - [02-unet_resnet.ipynb](notebooks/...) - inference results of InceptionResNetV2-UNet on 500m school aerial images. Demonstrates complete workflow of aerial images to a queryable dataset
+- [03_google_map_fetch.ipynb](notebooks/03_google_map_fetch.ipynb) - results to fetch google map, google earth images. 
+- [04-results.ipynb]
 
-# To Do
-* Fine tune the current models by either training on higher quality data or annotating the current aerial images 
-* Explre other enviornmental factors that can influence quality of learning such as cooling, air pollution, physical activity
-* Determine if there is a correlation between availibilty of ecosystem services and school location
+## data
+
+We are using satelite images obtained from google map static api, as well as google street view to train our models.
+
+- [aerial images](https://drive.google.com/drive/folders/1EKbQkQ2RrbqBQrQHzJ3ojXfQXJiULSLH)
+- [update_aerial_images](https://drive.google.com/drive/folders/13Qv8GEMoUm6i98ANcl_dMnS03v_L8_G3)
+
+
+
+## Results
 
 
 
