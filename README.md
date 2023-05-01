@@ -7,6 +7,7 @@ The goal of this specific machine learning project is to characterize ecosystem 
 ├── notebooks
 ├── results 
 ├── SegForestNet
+├── window-segmentation
 ├── .gitignore
 ├── COLLABORATORS
 ├── LICENSE
@@ -35,6 +36,15 @@ We are using satelite images obtained from google map static api, as well as goo
 
 ## Results
 
+### SegForest segmentation results
 
+| School_Name                  | Area_50m_Concrete_percent | Area_50m_Concrete_sqm | Area_50m_Building_percent | Area_50m_Building_sqm | Area_50m_LowVege_percent | Area_50m_LowVege_sqm | Area_50m_Tree_percent | Area_50m_Tree_sqm | Area_50m_Water_percent | Area_50m_Water_sqm |
+|------------------------------|---------------------------|------------------------|----------------------------|-----------------------|---------------------------|----------------------|-----------------------|--------------------|------------------------|---------------------|
+| Kennedy,_Patrick_Elementary | 51.353872                 | 4033.323642           | 24.039889                  | 1888.088459          | 5.207927                  | 409.029607           | 15.473146             | 1215.258023        | 0.0                    | 0.0                 |
+| Ellis,_David_A__Elementary  | 42.673967                 | 3351.605550           | 21.292372                  | 1672.298949          | 13.428550                 | 1054.675839          | 19.391205             | 1522.981689        | 0.0                    | 0.0                 |
+| Blackstone,_William_Elementary | 38.862666              | 3052.266631           | 24.737393                  | 1942.870282          | 13.238130                 | 1039.720274          | 17.907136             | 1406.423145        | 0.0                    | 0.0                 |
+| Otis,_James_Elementary_50    | 44.975342                 | 3532.355066           | 28.053452                  | 2203.312993          | 6.243295                  | 490.347262           | 15.632192             | 1227.749465        | 0.0                    | 0.0                 |
+| Community_Academy_of_Science | 45.677275                 | 3587.484817           | 26.534471                  | 2084.012453          | 7.153933                  | 561.868603           | 14.955684             | 1174.616659        | 0.0                    | 0.0                 |
 
-
+![Top 10 green space schools](results/output.png)
+![Area ranges](results/output1.png)
