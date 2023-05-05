@@ -24,7 +24,7 @@ The goal of this specific machine learning project is to characterize ecosystem 
 - [01-mask_rcnn.ipynb](notebooks/01-mask_rcnn.ipynb) - visualizes annotated data and demonstrates how to train Mask-RCNN on 50m school aerial images
 - [02-unet_resnet.ipynb](notebooks/...) - inference results of InceptionResNetV2-UNet on 500m school aerial images. Demonstrates complete workflow of aerial images to a queryable dataset
 - [03_google_map_fetch.ipynb](notebooks/03_google_map_fetch.ipynb) - results to fetch google map, google earth images. 
-- [SegForestNet-50m.ipynb](SegForestNet/greenspace-deploy-50m-origin.ipynb) - segmenting result by running SegForestNet on 50m-buffered aerial images, more info on SegForestNet/ module
+- [SegForestNet-50m.ipynb](https://github.com/davidchd/SegForestNet/blob/main/greenspace-deploy-50m-origin.ipynb) - segmenting result by running SegForestNet on 50m-buffered aerial images, more info on SegForestNet/ module
 - [results.ipynb] - to be updated
 
 ## data
