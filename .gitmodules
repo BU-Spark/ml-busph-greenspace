@@ -1,3 +1,7 @@
 [submodule "SegForestNet"]
 	path = SegForestNet
 	url = https://github.com/davidchd/SegForestNet
+	
+[submodule "MaskRCNN"]
+	path = MaskRCNN
+	url = https://github.com/christinaexyou/Mask-RCNN-TF2
