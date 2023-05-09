@@ -4,4 +4,4 @@
 	
 [submodule "MaskRCNN"]
 	path = MaskRCNN
-	url = https://github.com/christinaexyou/Mask-RCNN-TF2
+	url = https://github.com/christinaexyou/Mask-RCNN-TF2.git
